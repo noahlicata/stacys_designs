@@ -243,7 +243,6 @@ h2 {
   font-size: 32px;
 }
 
-/* About page */
 .tm-about-container {
   border-top: 1px solid white;
   padding-top: 50px;
@@ -251,7 +250,6 @@ h2 {
   border-bottom: 1px solid white;
 }
 
-/* Contact page */
 .tm-contact-left {
   padding-right: 55px;
 }
@@ -347,10 +345,6 @@ h2 {
     border-radius: 5px;
   }
 
-  .navbar .navbar-nav .nav-item {
-    margin-bottom: 20px;
-  }
-
   .page-left,
   .page-right {
     margin-left: auto;
@@ -413,29 +407,11 @@ h2 {
     flex-direction: column;
   }
 
-  /* .intro-img-1 {
-    margin-right: 4%;
-    margin-bottom: 0;
-    width: 48%;
-  } */
-
   .intro-img-2 {
     width: 100%;
   }
 }
 
-/* @media (max-width: 408px) {
-  .navbar-toggler {
-    color: #f9c922;
-  }
-} */
-
-/* Preloader 
-	https://ihatetomatoes.net/create-custom-preloading-screen/
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -454,8 +430,8 @@ h2 {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  border-top-color: #3498db;
+  animation: spin 2s linear infinite;
   z-index: 2001;
 }
 #loader:before {
@@ -467,8 +443,8 @@ h2 {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  border-top-color: #e74c3c;
+  animation: spin 3s linear infinite;
 }
 #loader:after {
   content: '';
@@ -479,8 +455,8 @@ h2 {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  border-top-color: #f9c922;
+  animation: spin 1.5s linear infinite;
 }
 @keyframes spin {
   0% {
