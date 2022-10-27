@@ -240,7 +240,7 @@ h2 {
 #logo {
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 /* About page */
@@ -423,6 +423,12 @@ h2 {
     width: 100%;
   }
 }
+
+/* @media (max-width: 408px) {
+  .navbar-toggler {
+    color: #f9c922;
+  }
+} */
 
 /* Preloader 
 	https://ihatetomatoes.net/create-custom-preloading-screen/
